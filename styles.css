@@ -37,6 +37,12 @@ nav li a {
   color: white;
 }
 
+.blogs {
+  background-color: #eb6565;
+  margin: 20px 0px;
+  padding: 10px;
+}
+
 #question {
   height: 100px;
   display: flex;
