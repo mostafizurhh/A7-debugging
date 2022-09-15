@@ -21,37 +21,42 @@
     </header>
     <main>
         <div class="blogs">
-            <h3>Difference between Local Storage and Session Storage?</h3>
-            <p>Answer:</p><br>
+            <h3>Difference between Local Storage and Session Storage?</h3><br>
+            <p><b>Answer:</b></p><br>
             <p>'localStorage' and 'sessionStorage' are almost identical and have the same API. The difference is that
                 with sessionStorage, the data is persisted only until the window or tab is closed. With localStorage,
                 the data is persisted until the user manually clears the browser cache or until your web app clears the
-                data. </p>
+                data. </p><br>
+            <div style="text-align: center;">
+                <img src="local-storage-tab-screenshot.png" alt="">
+                <img src="session-storage-example-2.png" alt="">
+            </div>
         </div>
         <div class="blogs">
-            <h3>What is the difference between Global Scope and Block Scope?</h3>
-            <p>Global Scope:</p> <br>
+            <h3>What is the difference between Global Scope and Block Scope?</h3> <br>
+            <p><b>Global Scope:</b></p> <br>
             <p> Variables declared Globally (outside any function) have Global Scope. If you assign a value to a
                 variable that has not been declared, it will automatically become a GLOBAL variable. Global variables
                 can be accessed
                 from anywhere in a JavaScript program. Variables declared with var, let and const are quite similar when
                 declared outside a block.</p> <br><br>
-            <p>Block Scope:</p> <br>
+            <p><b>Block Scope:</b></p> <br>
             <p>'let' & 'const' these two keywords provide Block Scope in JavaScript. Variables declared inside a { }
                 block cannot be accessed from outside the block and has block scope.
-            </p>
+            </p><br>
+            <div style="text-align:center;"><img class="" src="declaring_variables_scopes.png" alt=""></div>
         </div>
         <div class="blogs">
-            <h3>How does event loop work in JavaScript?</h3>
-            <p>Answer:</p> <br>
+            <h3>How does event loop work in JavaScript?</h3><br>
+            <p><b>Answer:</b></p> <br>
             <p>JavaScript has a runtime model based on an event loop, which is responsible for executing the codes in a
                 stack of frame,
                 collecting and processing events as object in a heap, and executing queued sub-tasks.</p> <br>
-            <img src="event-loop.svg" alt="">
+            <div style="text-align: center;"><img src="event-loop.svg" alt=""></div>
         </div>
         <div class="blogs">
-            <h3>How many ways you may get 'Undefined' from a code?</h3>
-            <p>Answer:</p>
+            <h3>How many ways you may get 'Undefined' from a code?</h3><br>
+            <p><b>Answer:</b></p>
             <p>
                 There are 8 different possible ways we may get 'Undefined' from any code. <br> <br>
                 1. Variable that is not initialized or assigned any value. <br>

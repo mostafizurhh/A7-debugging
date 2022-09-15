@@ -38,9 +38,13 @@ nav li a {
 }
 
 .blogs {
-  background-color: #eb6565;
+  background-color: lightblue;
   margin: 20px 0px;
   padding: 10px;
+}
+
+img {
+  width: 50%;
 }
 
 #question {
