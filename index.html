@@ -13,30 +13,47 @@
 </head>
 
 <body>
-  <h1 class="title"><img src="logo.png"></h1>
-  <div id="show-time">0 seconds</div>
+  <header class="box-container">
+    <!-- nav bar -->
+    <nav>
+      <ul class="navflex">
+        <li class="navtitle"><a href="blog.html">Blog</a></li>
+        <li class="navtitle"><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+    <!-- banner -->
+    <h1 class="title"><img src="logo.png"></h1>
 
-  <div class="box-container">
-    <div id="question"></div>
+    <!-- show time -->
+    <div id="show-time">0 seconds</div>
+  </header>
 
-    <div id="display" class="inactive"></div>
+  <main>
+    <!-- main display -->
+    <div class="box-container">
+      <div id="question"></div>
 
-    <div class="buttons">
-      <button id="starts">START</button>
+      <div id="display" class="inactive"></div>
+
+      <div class="buttons">
+        <button id="starts">START</button>
+      </div>
+
+      <div class="divider-container">
+        <div class="line"></div>
+        <h1 class="title2">History</h1>
+        <div class="line"></div>
+      </div>
+      <div id="histories"></div>
     </div>
 
-    <div class="divider-container">
-      <div class="line"></div>
-      <h1 class="title2">History</h1>
-      <div class="line"></div>
-    </div>
-    <div id="histories"></div>
-  </div>
+    <!-- modal display -->
+    <div id="countdown"></div>
+    <div id="modal-background" class="hidden"></div>
+    <div id="result" class="hidden"></div>
+  </main>
 
-  <div id="countdown"></div>
-  <div id="modal-background" class="hidden"></div>
-  <div id="result" class="hidden"></div>
-
+  <!-- js files -->
   <script src="history.js"></script>
   <script src="script.js"></script>
 </body>
